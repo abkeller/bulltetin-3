@@ -1,0 +1,510 @@
+{
+    "1": {
+        "name": "Bronzeville/Union Station",
+        "route_no": "1"
+    },
+    "2": {
+        "name": "Hyde Park Express",
+        "route_no": "2"
+    },
+    "3": {
+        "name": "King Drive",
+        "route_no": "3"
+    },
+    "4": {
+        "name": "Cottage Grove",
+        "route_no": "4"
+    },
+    "N5": {
+        "name": "South Shore Night Bus",
+        "route_no": "N5"
+    },
+    "6": {
+        "name": "Jackson Park Express",
+        "route_no": "6"
+    },
+    "7": {
+        "name": "Harrison",
+        "route_no": "7"
+    },
+    "8": {
+        "name": "Halsted",
+        "route_no": "8"
+    },
+    "8A": {
+        "name": "South Halsted",
+        "route_no": "8A"
+    },
+    "9": {
+        "name": "Ashland",
+        "route_no": "9"
+    },
+    "X9": {
+        "name": "Ashland Express",
+        "route_no": "X9"
+    },
+    "10": {
+        "name": "Museum of Science & Industry",
+        "route_no": "10"
+    },
+    "11": {
+        "name": "Lincoln",
+        "route_no": "11"
+    },
+    "12": {
+        "name": "Roosevelt",
+        "route_no": "12"
+    },
+    "J14": {
+        "name": "Jeffery Jump",
+        "route_no": "J14"
+    },
+    "15": {
+        "name": "Jeffery Local",
+        "route_no": "4"
+    },
+    "18": {
+        "name": "16th/18th",
+        "route_no": "4"
+    },
+    "19": {
+        "name": "United Center Express",
+        "route_no": "4"
+    },
+    "20": {
+        "name": "Madison",
+        "route_no": "4"
+    },
+    "21": {
+        "name": "Cermak",
+        "route_no": "4"
+    },
+    "22": {
+        "name": "Clark",
+        "route_no": "4"
+    },
+    "24": {
+        "name": "Wentworth",
+        "route_no": "4"
+    },
+    "26": {
+        "name": "South Shore Express",
+        "route_no": "4"
+    },
+    "28": {
+        "name": "Stony Island",
+        "route_no": "4"
+    },
+    "29": {
+        "name": "State",
+        "route_no": "4"
+    },
+    "30": {
+        "name": "South Chicago",
+        "route_no": "4"
+    },
+    "31": {
+        "name": "31st",
+        "route_no": "4"
+    },
+    "34": {
+        "name": "South Michigan",
+        "route_no": "4"
+    },
+    "35": {
+        "name": "31st/35th",
+        "route_no": "4"
+    },
+    "36": {
+        "name": "Broadway",
+        "route_no": "4"
+    },
+    "37": {
+        "name": "Sedgwick",
+        "route_no": "4"
+    },
+    "39": {
+        "name": "Pershing",
+        "route_no": "4"
+    },
+    "43": {
+        "name": "43rd",
+        "route_no": "4"
+    },
+    "44": {
+        "name": "Wallace/Racine",
+        "route_no": "4"
+    },
+    "47": {
+        "name": "47th",
+        "route_no": "4"
+    },
+    "48": {
+        "name": "South Damen",
+        "route_no": "4"
+    },
+    "49": {
+        "name": "Western",
+        "route_no": "4"
+    },
+    "49B": {
+        "name": "North Western",
+        "route_no": "4"
+    },
+    "X49": {
+        "name": "Western Express",
+        "route_no": "4"
+    },
+    "50": {
+        "name": "Damen",
+        "route_no": "4"
+    },
+    "51": {
+        "name": "51st",
+        "route_no": "4"
+    },
+    "52": {
+        "name": "Kedzie/California",
+        "route_no": "4"
+    },
+    "52A": {
+        "name": "South Kedzie",
+        "route_no": "4"
+    },
+    "53": {
+        "name": "Pulaski",
+        "route_no": "4"
+    },
+    "53A": {
+        "name": "South Pulaski",
+        "route_no": "4"
+    },
+    "54": {
+        "name": "Cicero",
+        "route_no": "4"
+    },
+    "54A": {
+        "name": "North Cicero/Skokie Blvd",
+        "route_no": "4"
+    },
+    "54B": {
+        "name": "South Cicero",
+        "route_no": "4"
+    },
+    "55": {
+        "name": "Garfield",
+        "route_no": "4"
+    },
+    "55A": {
+        "name": "55th/Austin",
+        "route_no": "4"
+    },
+    "55N": {
+        "name": "55th/Narragansett",
+        "route_no": "4"
+    },
+    "56": {
+        "name": "Milwaukee",
+        "route_no": "4"
+    },
+    "57": {
+        "name": "Laramie",
+        "route_no": "4"
+    },
+    "59": {
+        "name": "59th/61st",
+        "route_no": "4"
+    },
+    "60": {
+        "name": "Blue Island/26th",
+        "route_no": "4"
+    },
+    "62": {
+        "name": "Archer",
+        "route_no": "4"
+    },
+    "62H": {
+        "name": "Archer/Harlem",
+        "route_no": "4"
+    },
+    "63": {
+        "name": "63rd",
+        "route_no": "4"
+    },
+    "63W": {
+        "name": "West 63rd",
+        "route_no": "4"
+    },
+    "65": {
+        "name": "Grand",
+        "route_no": "4"
+    },
+    "66": {
+        "name": "Chicago",
+        "route_no": "4"
+    },
+    "67": {
+        "name": "67th/69th/71st",
+        "route_no": "4"
+    },
+    "68": {
+        "name": "Northwest Highway",
+        "route_no": "4"
+    },
+    "70": {
+        "name": "Division",
+        "route_no": "4"
+    },
+    "71": {
+        "name": "71st/South Shore",
+        "route_no": "4"
+    },
+    "72": {
+        "name": "North Ave",
+        "route_no": "4"
+    },
+    "73": {
+        "name": "Armitage",
+        "route_no": "4"
+    },
+    "74": {
+        "name": "Fullerton",
+        "route_no": "4"
+    },
+    "75": {
+        "name": "74th/75th",
+        "route_no": "4"
+    },
+    "76": {
+        "name": "Diversey",
+        "route_no": "4"
+    },
+    "77": {
+        "name": "Belmont",
+        "route_no": "4"
+    },
+    "78": {
+        "name": "Montrose",
+        "route_no": "4"
+    },
+    "79": {
+        "name": "79th",
+        "route_no": "4"
+    },
+    "80": {
+        "name": "Irving Park",
+        "route_no": "4"
+    },
+    "81": {
+        "name": "Lawrence",
+        "route_no": "4"
+    },
+    "81W": {
+        "name": "West Lawrence",
+        "route_no": "4"
+    },
+    "82": {
+        "name": "Kimball/Homan",
+        "route_no": "4"
+    },
+    "84": {
+        "name": "Peterson",
+        "route_no": "4"
+    },
+    "85": {
+        "name": "Central",
+        "route_no": "4"
+    },
+    "85A": {
+        "name": "North Central",
+        "route_no": "4"
+    },
+    "86": {
+        "name": "Narragansett/Ridgeland",
+        "route_no": "4"
+    },
+    "87": {
+        "name": "87th",
+        "route_no": "4"
+    },
+    "88": {
+        "name": "Higgins",
+        "route_no": "4"
+    },
+    "90": {
+        "name": "Harlem",
+        "route_no": "4"
+    },
+    "91": {
+        "name": "Austin",
+        "route_no": "4"
+    },
+    "92": {
+        "name": "Foster",
+        "route_no": "4"
+    },
+    "93": {
+        "name": "California/Dodge",
+        "route_no": "4"
+    },
+    "94": {
+        "name": "South California",
+        "route_no": "4"
+    },
+    "95": {
+        "name": "95th",
+        "route_no": "4"
+    },
+    "96": {
+        "name": "Lunt",
+        "route_no": "4"
+    },
+    "97": {
+        "name": "Skokie",
+        "route_no": "4"
+    },
+    "X98": {
+        "name": "Avon Express",
+        "route_no": "4"
+    },
+    "100": {
+        "name": "Jeffery Manor Express",
+        "route_no": "4"
+    },
+    "103": {
+        "name": "West 103rd",
+        "route_no": "4"
+    },
+    "106": {
+        "name": "East 103rd",
+        "route_no": "4"
+    },
+    "108": {
+        "name": "Halsted/95th",
+        "route_no": "4"
+    },
+    "111": {
+        "name": "111th/King Drive",
+        "route_no": "4"
+    },
+    "111A": {
+        "name": "Pullman Shuttle",
+        "route_no": "4"
+    },
+    "112": {
+        "name": "Vincennes/111th",
+        "route_no": "4"
+    },
+    "115": {
+        "name": "Pullman/115th",
+        "route_no": "4"
+    },
+    "119": {
+        "name": "Michigan/119th",
+        "route_no": "4"
+    },
+    "120": {
+        "name": "Ogilvie/Streeterville Express",
+        "route_no": "4"
+    },
+    "121": {
+        "name": "Union/Streeterville Express",
+        "route_no": "4"
+    },
+    "124": {
+        "name": "Navy Pier",
+        "route_no": "4"
+    },
+    "125": {
+        "name": "Water Tower Express",
+        "route_no": "4"
+    },
+    "126": {
+        "name": "Jackson",
+        "route_no": "4"
+    },
+    "128": {
+        "name": "Soldier Field Express",
+        "route_no": "4"
+    },
+    "130": {
+        "name": "Museum Campus",
+        "route_no": "4"
+    },
+    "134": {
+        "name": "Stockton/LaSalle Express",
+        "route_no": "4"
+    },
+    "135": {
+        "name": "Clarendon/LaSalle Express",
+        "route_no": "4"
+    },
+    "136": {
+        "name": "Sheridan/LaSalle Express",
+        "route_no": "4"
+    },
+    "143": {
+        "name": "Stockton/Michigan Express",
+        "route_no": "4"
+    },
+    "146": {
+        "name": "Inner Drive/Michigan Express",
+        "route_no": "4"
+    },
+    "147": {
+        "name": "Outer Drive Express",
+        "route_no": "4"
+    },
+    "148": {
+        "name": "Clarendon/Michigan Express",
+        "route_no": "4"
+    },
+    "151": {
+        "name": "Sheridan",
+        "route_no": "4"
+    },
+    "152": {
+        "name": "Addison",
+        "route_no": "4"
+    },
+    "155": {
+        "name": "Devon",
+        "route_no": "4"
+    },
+    "156": {
+        "name": "LaSalle",
+        "route_no": "4"
+    },
+    "157": {
+        "name": "Streeterville/Taylor",
+        "route_no": "4"
+    },
+    "165": {
+        "name": "West 65th",
+        "route_no": "4"
+    },
+    "169": {
+        "name": "69th/UPS Express",
+        "route_no": "4"
+    },
+    "171": {
+        "name": "University of Chicago/Hyde Park",
+        "route_no": "4"
+    },
+    "172": {
+        "name": "University of Chicago/Kenwood",
+        "route_no": "4"
+    },
+    "192": {
+        "name": "University of Chicago Hospitals Express",
+        "route_no": "4"
+    },
+    "201": {
+        "name": "Central/Ridge",
+        "route_no": "4"
+    },
+    "206": {
+        "name": "Evanston Circulator",
+        "route_no": "4"
+    }
+}

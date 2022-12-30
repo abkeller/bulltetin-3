@@ -1,0 +1,8 @@
+Garage,Duty,Op Day,Sequence,Start Time,Start,End,Route,Pce has pullout,First Start,From,Next DtyRunNumber,Paid,Work Time,Platform,Type,Direction,Duty1,EvtSta,Note
+7,050,a,1,22:16,22:31+,30:29+,87,TRUE,87 Vin,G--77,7006,8h28,8h28,7h59,OWL,,,,
+7,448,a,1,19:57,20:12,30:15,3,TRUE,95 Csu,G--77,,10h18,10h18,10h03,OWL,,,,
+7,449,a,1,20:42,20:57,29:13+,3,TRUE,95 Csu,G--77,,8h32,8h32,8h17,OWL,,,,
+7,450,a,1,21:12,21:27,29:43+,3,TRUE,95 Csu,G--77,,8h32,8h32,8h17,OWL,,,,
+7,678,a,1,20:26,20:41,30:46,79,TRUE,79 Wen,G--77,7621,10h21,10h21,10h05,OWL,,,,
+7,679,a,1,20:48,21:03+,29:34,79,TRUE,79 Wen,G--77,7615,8h47,8h47,8h31,OWL,,,,
+7,680,a,1,21:28,21:43+,30:07,79,TRUE,79 Wen,G--77,7618,8h40,8h40,8h24,OWL,,,,

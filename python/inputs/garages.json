@@ -1,0 +1,44 @@
+{
+    "Forest Glen": {
+        "short_name": "F. Glen",
+        "gar_symbol": "F",
+        "sm_name": "Randolph Williams",
+        "sm_title": "Senior Manager"
+    },
+    "North Park": {
+        "short_name": "N. Park",
+        "gar_symbol": "P",
+        "sm_name": "Lulvet Cooper",
+        "sm_title": "Senior Manager"
+    },
+    "Chicago": {
+        "short_name": "Chicago",
+        "gar_symbol": "5",
+        "sm_name": "Valant Wright-Scurlock",
+        "sm_title": "Senior Manager"
+    },
+    "Kedzie": {
+        "short_name": "Kedzie",
+        "gar_symbol": "K",
+        "sm_name": "Merresa Topps-Akindele",
+        "sm_title": "Senior Manager"
+    },
+    "74th": {
+        "short_name": "74th",
+        "gar_symbol": "6",
+        "sm_name": "Derrick McFarland",
+        "sm_title": "Senior Manager"
+    },
+    "77th": {
+        "short_name": "77th",
+        "gar_symbol": "7",
+        "sm_name": "Arlana Johnson",
+        "sm_title": "Senior Manager"
+    },
+    "103rd": {
+        "short_name": "103rd",
+        "gar_symbol": "1",
+        "sm_name": "Mark Luke",
+        "sm_title": "Acting Senior Manager"
+    }
+}

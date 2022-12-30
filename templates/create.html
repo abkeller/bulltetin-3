@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}Create Bulletin{% endblock %}
+
+{% block main %}
+{% for link in zip_links %}
+<a href={{ link[0] }}>{{ link[1] }}</a><br>
+{% endfor %}
+{% endblock %}

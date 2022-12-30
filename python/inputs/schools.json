@@ -1,0 +1,262 @@
+{
+    "AMU": {
+        "type": "CPS",
+        "address": "5110 N Damen Ave",
+        "name": "Amundsen"
+    },
+    "JRZ": {
+        "type": "CPS",
+        "address": "2150 S Laflin St",
+        "name": "Juarez"
+    },
+    "BOG": {
+        "type": "CPS",
+        "address": "3939 W 79th St",
+        "name": "Bogan"
+    },
+    "CAR": {
+        "type": "CPS",
+        "address": "13100 S Doty Ave",
+        "name": "Carver"
+    },
+    "CAG": {
+        "type": "CPS",
+        "address": "3857 W 111th St",
+        "name": "Chicago Agricultural"
+    },
+    "BUL": {
+        "type": "CPS",
+        "address": "2040 W Adams St",
+        "name": "Chicago Bulls"
+    },
+    "CIC": {
+        "type": "Non-CPS",
+        "address": "1309 W 95th St",
+        "name": "Chicago International"
+    },
+    "CML": {
+        "type": "CPS",
+        "address": "3519 S Giles Ave",
+        "name": "Chicago Military"
+    },
+    "CVO": {
+        "type": "CPS",
+        "address": "2100 E 87th St",
+        "name": "Chicago Vocational"
+    },
+    "CLK": {
+        "type": "CPS",
+        "address": "5101 West Harrison",
+        "name": "Clark"
+    },
+    "CLE": {
+        "type": "CPS",
+        "address": "1147 N Western Ave",
+        "name": "Clemente"
+    },
+    "COR": {
+        "type": "CPS",
+        "address": "821 E 103rd St",
+        "name": "Corliss"
+    },
+    "CUR": {
+        "type": "CPS",
+        "address": "4959 S Archer Ave",
+        "name": "Curie"
+    },
+    "DUN": {
+        "type": "CPS",
+        "address": "3000 S King Dr",
+        "name": "Dunbar"
+    },
+    "URB": {
+        "type": "Non-CPS",
+        "address": "6201 S. Stewart",
+        "name": "Urban Prep"
+    },
+    "EHS": {
+        "type": "Non-CPS",
+        "address": "1600 Dodge Ave",
+        "name": "Evanston"
+    },
+    "FOR": {
+        "type": "CPS",
+        "address": "3235 N Leclaire Ave",
+        "name": "Foreman"
+    },
+    "GUE": {
+        "type": "Non-CPS",
+        "address": "8001 W Belmont Ave",
+        "name": "Guerin Prep"
+    },
+    "HPK": {
+        "type": "CPS",
+        "address": "6220 S Stony Island Ave",
+        "name": "Hyde Park"
+    },
+    "JUL": {
+        "type": "CPS",
+        "address": "10330 S Elizabeth St",
+        "name": "Julian"
+    },
+    "KEL": {
+        "type": "CPS",
+        "address": "4136 S California Ave",
+        "name": "Kelly"
+    },
+    "KEN": {
+        "type": "CPS",
+        "address": "6325 W 56th St",
+        "name": "Kennedy"
+    },
+    "KWD": {
+        "type": "CPS",
+        "address": "5015 S Blackstone Ave",
+        "name": "Kenwood"
+    },
+    "KNG": {
+        "type": "CPS",
+        "address": "4445 S Drexel Blvd",
+        "name": "King"
+    },
+    "KBL": {
+        "type": "Non-CPS",
+        "address": "5515 South Lowe Ave",
+        "name": "Kipp Bloom"
+    },
+    "LAK": {
+        "type": "CPS",
+        "address": "4015 N Ashland Ave",
+        "name": "Lake View"
+    },
+    "LAN": {
+        "type": "CPS",
+        "address": "2501 W. Addison St.",
+        "name": "Lane Tech"
+    },
+    "LVL": {
+        "type": "CPS",
+        "address": "3120 S Kostner Ave",
+        "name": "Little Village"
+    },
+    "MAN": {
+        "type": "CPS",
+        "address": "2935 W Polk St",
+        "name": "Manley"
+    },
+    "MSH": {
+        "type": "CPS",
+        "address": "3250 W Adams St",
+        "name": "Marshall"
+    },
+    "MAT": {
+        "type": "CPS",
+        "address": "5835 N Lincoln Ave",
+        "name": "Mather"
+    },
+    "MPK": {
+        "type": "CPS",
+        "address": "1744 W Pryor Ave",
+        "name": "Morgan Park"
+    },
+    "MMC": {
+        "type": "Non-CPS",
+        "address": "3737 W 99th St",
+        "name": "Mother McAuley"
+    },
+    "NOR": {
+        "type": "CPS",
+        "address": "5501 N Kedzie Ave",
+        "name": "Northside College Prep"
+    },
+    "NTH": {
+        "type": "Non-CPS",
+        "address": "3900 West Peterson Ave",
+        "name": "Northtown Adademy"
+    },
+    "PHI": {
+        "type": "CPS",
+        "address": "244 E Pershing Rd",
+        "name": "Phillips"
+    },
+    "ROB": {
+        "type": "CPS",
+        "address": "6835 S Normal Blvd",
+        "name": "Robeson"
+    },
+    "SCH": {
+        "type": "CPS",
+        "address": "3601 N Milwaukee Ave",
+        "name": "Schurz"
+    },
+    "SEN": {
+        "type": "CPS",
+        "address": "5900 N. Glenwood Ave.",
+        "name": "Senn"
+    },
+    "SIM": {
+        "type": "CPS",
+        "address": "8147 S Vincennes Ave",
+        "name": "Simeon"
+    },
+    "STI": {
+        "type": "Non-CPS",
+        "address": "1076 W Roosevelt Rd",
+        "name": "St. Ignatius"
+    },
+    "STL": {
+        "type": "Non-CPS",
+        "address": "5556 W 77th St",
+        "name": "St. Laurence"
+    },
+    "STP": {
+        "type": "Non-CPS",
+        "address": "5900 W Belmont Ave",
+        "name": "St. Patrick"
+    },
+    "STZ": {
+        "type": "CPS",
+        "address": "3030 N Mobile Ave",
+        "name": "Steinmetz"
+    },
+    "TFT": {
+        "type": "CPS",
+        "address": "6530 W Bryn Mawr Ave",
+        "name": "Taft"
+    },
+    "ENG": {
+        "type": "Non-CPS",
+        "address": "6201 S Stewart Ave",
+        "name": "Englewood"
+    },
+    "VON": {
+        "type": "CPS",
+        "address": "5039 N Kimball Ave",
+        "name": "Von Steuben"
+    },
+    "Washington High School": {
+        "type": "CPS",
+        "address": "3535 E 114th St",
+        "name": "Washington"
+    },
+    "WRT": {
+        "type": "NCPS",
+        "address": "",
+        "name": "Wright College"
+    },
+    "CPS": {
+        "type": "CPS",
+        "address": "",
+        "name": "CPS Various"
+    },
+    "CPSK": {
+        "type": "CPS",
+        "address": "",
+        "name": "CPS Various (Kimball/Homan)"
+    },
+    "UIC": {
+        "type": "Non-CPS",
+        "address": "",
+        "name": "UIC"
+    }
+}

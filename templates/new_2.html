@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}New Bulletin{% endblock %}
+
+{% block main %}
+<script src="extensions/editable/bootstrap-table-editable.js"></script>
+<form action="/bull-info" method="post">
+    <div style="text-align:left">
+        <div>
+            <label for="first_bull_number">Bulletin Number</label><br>
+            <input name="bn1">
+        </div>
+        <br>
+        <div>
+            <label for="last_bull_number">Last Bulletin Number (if range)</label><br>
+            <input name="bn2">
+        </div>
+        <br>    
+        <div style="text-align:left">
+            <label for="bull_type">Bulletin Type</label><br>
+            <select name="bull_type" id="bull_type">
+            {% for row in sub_types %}
+                <optgroup name="type" id="type" value={{ row }} label={{  row }}>
+                {% for item in sub_types[row] %}
+                <option value={{item}}>{{ item }}</option>
+                {% endfor %}
+            {% endfor %}
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- date picker to get send date for cover sheet-->
+            <label for="send_date">Send date:</label><br>
+            <input type="date" id="send_date" name="send_date">        
+        </div>
+    
+
+
+    <br><br>                     
+    <div class="form-group" style="text-align:center">             
+        <button class="btn btn-primary" type="submit" onsubmit="select_bulletins">Preview</button>
+    </div>
+
+{% endblock %}

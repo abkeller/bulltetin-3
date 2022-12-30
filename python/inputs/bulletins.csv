@@ -1,0 +1,54 @@
+bulletin_no,routes,gar_full,Event,Description,eff_day,eff_date,initials
+SB20-0397,,Chicago,School Service,Winter 2019-2020 School Modification Instructions,Monday,12/21/2020,AK
+SB20-0398,,74th,School Service,Winter 2019-2020 School Modification Instructions,Monday,03/01/2021,BD
+SB20-0399,,103rd,School Service,Winter 2019-2020 School Modification Instructions,Monday,12/21/2020,AK
+SB21-0001,81,Forest Glen,Covid-19 Short Turn,Short-turn operation extras for #81 - Weekday,Monday,01/04/2021,AK
+SB21-0002,36,North Park,Covid-19 Short Turn,Short-turn operation extras for #36 - Sunday,Sunday,01/03/2021,AK
+SB21-0003,22,North Park,Covid-19 Short Turn,Short-turn operation extras for #22 - Weekday,Monday,01/04/2021,AK
+SB21-0004,22,North Park,Covid-19 Short Turn,Short-turn operation extras for #22- Saturday,Saturday,01/09/2021,AK
+SB21-0005,147,North Park,Covid-19 Short Turn,Short-turn operation extras for #147 - Weekday,Monday,01/04/2021,AK
+SB21-0006,20,Chicago,Covid-19 Short Turn,Short-turn operation extras for #20 - Sunday,Sunday,01/03/2021,AK
+SB21-0007,20,Chicago,Covid-19 Short Turn,Short-turn operation extras for #20 - Weekday,Monday,01/04/2021,AK
+SB21-0008,20,Chicago,Covid-19 Short Turn,Short-turn operation extras for #20- Saturday,Saturday,01/09/2021,AK
+SB21-0009,53,Chicago,Covid-19 Short Turn,Short-turn operation extras for #53 - Sunday,Sunday,01/03/2021,AK
+SB21-0010,53,Chicago,Covid-19 Short Turn,Short-turn operation extras for #53 - Weekday,Monday,01/04/2021,AK
+SB21-0011,53,Chicago,Covid-19 Short Turn,Short-turn operation extras for #53- Saturday,Saturday,01/09/2021,AK
+SB21-0012,66,Chicago,Covid-19 Short Turn,Short-turn operation extras for #66 - Sunday,Sunday,01/17/2021,AK
+SB21-0013,66,Chicago,Covid-19 Short Turn,Short-turn operation extras for #66 - Saturday,Saturday,01/16/2021,AK
+SB21-0014,70,Chicago,Covid-19 Short Turn,Short-turn operation extras for #70 - Weekday,Monday,01/04/2021,AK
+SB21-0015,72,Chicago,Covid-19 Short Turn,Short-turn operation extras for #72 - Weekday,Monday,01/04/2021,AK
+SB21-0016,74,Chicago,Covid-19 Short Turn,Short-turn operation extras for #74 - Weekday,Monday,01/04/2021,AK
+SB21-0017,12,Kedzie,Covid-19 Short Turn,Short-turn operation extras for #12 - Sunday,Sunday,01/03/2021,AK
+SB21-0018,12,Kedzie,Covid-19 Short Turn,Short-turn operation extras for #12 - Weekday,Monday,01/04/2021,AK
+SB21-0019,12,Kedzie,Covid-19 Short Turn,Short-turn operation extras for #12 - Saturday,Saturday,01/09/2021,AK
+SB21-0020,21,Kedzie,Covid-19 Short Turn,Short-turn operation extras for #21 - Weekday,Monday,01/04/2021,AK
+SB21-0021,63,74th,Covid-19 Short Turn,Short-turn operation extras for #63 - Sunday,Sunday,01/03/2021,AK
+SB21-0022,63,74th,Covid-19 Short Turn,Short-turn operation extras for #63 - Saturday,Saturday,01/09/2021,AK
+SB21-0023,3,77th,Covid-19 Short Turn,Short-turn operation extras for #3 - Weekday,Monday,01/04/2021,AK
+SB21-0024,4,77th,Covid-19 Short Turn,Short-turn operation extras for #4 - Sunday,Sunday,01/03/2021,AK
+SB21-0025,79,77th,Covid-19 Short Turn,Short-turn operation extras for #79 - Sunday,Sunday,01/03/2021,AK
+SB21-0026,71,103rd,Covid-19 Short Turn,Short-turn operation extras for #71 - Sunday,Sunday,01/03/2021,AK
+SB21-0027,71,103rd,Covid-19 Short Turn,Short-turn operation extras for #71 - Saturday,Saturday,01/09/2021,AK
+SB21-0028,157,Chicago,School Service,St. Ignatius ,Saturday,01/11/2020,AK
+SB21-0029,X98,Forest Glen,Avon,Extra Saturday service for Avon,Saturday,01/02/2021,LP
+SB21-0030,X98,Forest Glen,Avon,Extra Saturday service for Avon,Saturday,01/09/2021,LP
+SB21-0031,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Friday,01/08/2021,LP
+SB21-0032,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Saturday,01/09/2021,LP
+SB21-0033,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Sunday,01/10/2021,LP
+SB21-0034,169,103rd,UPS Extra Service,Extra Holiday Service for UPS,Saturday,01/09/2021,AK
+SB21-0035,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Friday,01/15/2021,LP
+SB21-0036,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Saturday,01/16/2021,LP
+SB21-0037,REDA,North Park,Red Line Shuttle,Belmont to Addison Red Line Shuttle,Sunday,01/17/2021,LP
+SB21-0038,X98,Forest Glen,Avon,Extra Saturday service for Avon,Saturday,02/06/2021,AK
+SB21-0039,169,103rd,UPS Extra Service,Extra Saturday Service for UPS,Saturday,02/20/2021,AK
+SB21-0040,X98,Forest Glen,Avon,Extra Saturday service for Avon,Monday,03/01/2021,GT
+SB21-0041,GRN,,Green Line Shuttle,35th to Roosevelt Green Line Shuttle,Sunday,03/07/2021,GT
+SB21-0042,ORG,,Orange Line Shuttle,Archer to Roosevelt Orange Line Shuttel,Sunday,03/07/2021,GT
+SB21-0043,77;81,Forest Glen,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,GT
+SB21-0044,60,Kedzie,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,GT
+SB21-0045,22,North Park,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,GT
+SB21-0046,20;53;66,Chicago,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,AK
+SB21-0047,9;49;55;62;63,74th,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,AK
+SB21-0048,4;79;87,77th,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,AK
+SB21-0049,N5;34,103rd,Owl Transitions,Spring DST Owl Transitions,Saturday,03/13/2021,AK
+SB21-0050,54B,74th ,School Service,Pick Long PM School Service St. Laurence HS,Thursday,03/04/2021,BD

@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<h1>Update Bulletins for {{ session['previous_bulletin'][1] }}</h1>
+<br>
+<form action="/update-options" method="post" >
+<br>
+{% if session.update_spreadsheet %}
+<div class="input-group mb-3" id="bulls">
+    <label>Choose Bulletins from Bulletin Spreadsheet</label>
+    <!-- divs for bulletin number text fields-->       
+    <div class="input-group mb-3" id="bull1">
+      <div class="input-group-prepend">
+        <label class="input-group-text" id for="bull1Instruct">Bulletin</label>
+      </div>
+      <select class="custom-select" id="bull1Instruct" name="bull1" >
+        <option selected>Choose Bulletin Number ...</option>            
+    {% for row in session['bulletins'] %}
+        <option value={{ row['bulletin_no'] }}>{{ row['bulletin_no']}} - {{ row['gar_full'] }} - {{ row['Description'] }}</option>
+    {% endfor %}
+      </select>
+    </div>
+      
+    <div class="input-group mb-3" id="bull2">
+      
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroupSelect01">Bulletin</label>
+      </div>
+        
+      <select class="custom-select" id="inputGroupSelect01" name="bull2">
+        <option selected>Choose Second Bulletin Number ...</option>            
+    {% for row in session['bulletins'] %}
+        <option value={{ row['bulletin_no'] }}>{{ row['bulletin_no']}} - {{ row['gar_full'] }} - {{ row['Description'] }}</option>
+    {% endfor %}
+      </select>
+    </div>
+</div>
+{% endif %}         
+
+ 
+{% if session.update_duties %}
+<div>
+    <h4>Updating Schedules in Hastus</h4>
+         <p id="dutyInstruction">Place all hastus output (including files from garages not updated) into bulletin folder, same as would be done to create a new bulletin</p>
+</div>
+{% endif %}              
+
+{% if session.update_send_date %}
+<!-- date picker to get send date for cover sheet-->
+<div>
+  <br>
+  <div class="form-group" id="sendDate">
+      <label for="send_date">Send date:</label>
+
+      <input type="date" id="send_date" name="send_date" value={{ today }}>
+  </div>
+ </div>
+{% endif %}
+ 
+  
+ <div class="form-group">             
+     <button class="btn btn-primary" type="submit" onsubmit="select_bulletins">Update</button>
+ </div> 
+    
+</form>
+{% endblock %}

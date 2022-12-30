@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}Preview Bulletin{% endblock %}
+
+{% block main %}
+HELLO
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" for="bull">Bulletin Number</th>
+      <th scope="col" for="routes">Routes</th>
+      <th scope="col" for="garage">Garage</th>
+      <th scope="col" for="event">Event Type</th>
+      <th scope="col" for="description">Description</th>
+      <th scope="col" for="day_type">Day Type</th>
+      <th scope="col" for="eff_date">Effective Date</th>
+      <th scope="col" for="send_date">Send Date</th>
+      <th scope="col" for="initials">Initials/th>
+    </tr>
+  </thead>
+{% for table in tables %}
+
+            {{ table|safe }}
+{% endfor %}
+
+{% endblock %}
+</body>
+</html>

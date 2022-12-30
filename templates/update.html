@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<h1>Update Bulletins</h1>
+<br>
+<form action="/update" method="post" >
+    <h3>Which series of bulletins would you like to update?</h3>
+
+    <!-- divs to select bulletins to update -->       
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" id for="bulletins">Bulletin</label>
+      </div>
+      <select class="custom-select" id="bulletins" name="prev_bull" >
+        <option selected>Select Previous Bulletin ...</option>            
+    {% for row in previous_bulletins %}
+        <option value="{{ row[0] }}">{{ row[1] }}</option>
+    {% endfor %}
+      </select>
+    </div>
+    
+    <br>    
+    <h4>Select one or more options that you would like to update</h4>
+    <br>
+
+    <!-- checkbox to select and update to the inputs from the bulletin spreadsheet-->
+    <div style="text-align:left" class="input-group mb-3">
+        <input onclick="updateBulletins()" type="checkbox" class="form-check-input" id="bulls" name="bulls">
+        <label class="form-check-label" for="updateBull">Check to update information from the bulletin spreadsheet</label>
+    </div>
+      
+    <!-- checkbox to select and update to the inputs from Hastus files-->
+    <div style="text-align:left" class="input-group mb-3">
+        <input onclick="updateDuties()" type="checkbox" class="form-check-input" id="duties" name="duties">
+        <label class="form-check-label" for="duties">Check to update the Hastus fies</label>
+    </div>
+    
+    <!-- checkbox to update send date for bulletins -->    
+    <div style="text-align:left" class="input-group mb-3">
+        <input onclick="updateSendDate()" type="checkbox" class="form-check-input" id="SendDate" name="sendDate">
+        <label class="form-check-label" for="updateSendDate">Check to update send date for bulletins</label>
+    </div>
+
+     <div class="form-group">             
+         <button class="btn btn-primary" type="submit" onsubmit="select_bulletins">Update</button>
+     </div> 
+</form>
+{% endblock %}

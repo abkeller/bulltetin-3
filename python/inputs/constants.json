@@ -1,0 +1,265 @@
+{
+    "day_types": {
+        "Weekday": {
+            "dt_abbrev": "Wdy",
+            "letter": "w",
+            "day_sh": "Weekday",
+            "paper": "W"
+        },
+        "Saturday": {
+            "dt_abbrev": "Sat",
+            "letter": "a",
+            "day_sh": "Saturday",
+            "paper": "Y"
+        },
+        "Sunday": {
+            "dt_abbrev": "Sun",
+            "letter": "s",
+            "day_sh": "Sunday/Holiday",
+            "paper": "P"
+        }
+    },
+    "pick":"Winter 2020-21 Pick",
+    "School": {
+        "act_code":""
+    },
+    "Modification_School": {
+        "purpose": "",
+        "re_line":"",
+        "file_re":"{} School Modification Instructions",
+        "mail_re": ""
+    },    
+    "Owl": {
+        "act_code": ""
+    },
+    "Fall_Owl": {
+        "purpose": "transition owl service from Daylight Savings Time to Central Standard Time,",
+        "purpose2": "",
+        "purpose3": "",
+        "re_line": "Daylight Savings Time Owl Transitions",
+        "ext1": "Clocks will move backward one hour at ",
+        "ext2": "0200",
+        "ext3": " on {}.",
+        "file_re": "Fall DST Owl Transitions",
+        "mail_re": "",
+        "77th": "\n\nTo accommodate the change to Central Standard Time, route #4 Cottage Grove will have some trips extended to end or begin at the Chicago State University terminal during the overnight owl period. This ensures all operator fallbacks occur at a suitable CTA terminal."
+    },
+    "Spring_Owl": {
+        "purpose": "transition owl service from Central Standard Time to Daylight Savings Time,",
+        "re_line": "Daylight Savings Time Owl Transitions",
+        "ext1": "Clocks will move forward one hour at ",
+        "ext2": "0200",
+        "ext3": " on {}.",
+        "file_re": "Spring DST Owl Transitions",
+        "mail_re": ""
+    },
+    "Thanksgiving_Owl": {
+        "purpose": "transition owl service from Weekday service to Sunday/Holiday service for the ",
+        "purpose2": "Thanksgiving Day ",
+        "purpose3": "holiday,",
+        "re_line": "Thanksgiving Day Owl Transitions",
+        "file_re": "Thanksgiving Day Owl Transitions",
+        "mail_re": ""
+    },
+    "Memorial_Owl": {
+        "purpose": "transition owl service from Sunday evening service to a Sunday/Holiday morning schedule for the ",
+        "purpose2": "Memorial Day ",
+        "purpose3": "holiday,",
+        "re_line": "Memorial Day Owl Transitions",
+        "file_re": "Memorial Day Owl Transitions",
+        "mail_re": ""
+    },
+    "Christmas_Owl": {
+        "purpose": "transition owl service from {} evening service to a Sunday/Holiday morning schedule for the ",
+        "purpose2": "Christmas and New Year's ",
+        "purpose3": "holidays,",
+        "re_line": "Christmas/New Year's Day Holiday Owl Transitions",
+        "file_re": "Holiday Owl Transitions",
+        "mail_re": ""
+    },
+    "July_4_Owl": {
+        "purpose": "transition owl service from {} evening service to a Sunday/Holiday morning schedule for the",
+        "purpose2": "July 4th",
+        "purpose3": "holiday,",
+        "re_line": "July 4th Owl Transitions",
+        "file_re": "July 4th Owl Transitions",
+        "mail_re": ""
+    },
+    "Labor_Owl": {
+        "purpose": "transition owl service from Sunday evening service to a Sunday/Holiday morning schedule for the ",
+        "purpose2": "Labor Day ",
+        "purpose3": "holiday,",
+        "re_line": "Labor Day Owl Transitions",
+        "file_re": "Labor Day Owl Transitions",
+        "mail_re": ""
+    },
+    "Covid": {
+        "act_code": "94813"
+        },
+    "Short_Covid": {
+        "purpose": "provide extra service for the short turn operation on",
+        "dates": "{} and every {}{} for the duration of the {}",
+        "re_line": "Short Turn Operation Extra Service",
+        "file_re": "Short Turn Operation Extras",
+        "mail_re": "to provide extra service for short turn operations."
+        
+    },
+    "Seasonal": {
+        "act_code": "11094"
+    },
+    "Beach_Seasonal": {
+        "purpose": "begin {} seasonal service to",
+        "re_line": "{} Seasonal Beach Shuttle Service",
+        "file_re": "{} Shuttle",
+        "mail_re": ""
+    },
+    "63_Beach_Seasonal": {
+        "location": "63rd Street Beach"
+    },
+    "Hold": {
+        "act_code":""
+    },
+    "MLK_Hold": {
+        "purpose": "Due to decreased ridership for the",
+        "purpose2": "Martin Luther King Day",
+        "re_line": "",
+        "mail_re":""  
+    },
+    "Holiday_Hold": {
+        "purpose": "Due to decreased riderhsip for the",
+        "purpose2": "Christmas and New Year's",
+        "purpose3": "days",
+        "re_line": "Christmas & New Year's Eve Service Modifications",
+        "file_re": "Christmas Week Hold-Ins",
+        "mail_re": ""
+    },
+    "President_Hold": {
+        "purpose": "Due to decreased riderhsip on the",
+        "purpose2": "Presidents' Day",
+        "purpose3": "holiday",
+        "re_line": "Presidents' Day Hold-Ins",
+        "file_re": "Presidents Day Hold-Ins",
+        "mail_re": ""
+    },
+    "Thanksgiving Day_Hold": {
+        "purpose": "Due to decreased riderhsip on the",
+        "purpose2": "Day After Thanksgiving",
+        "purpose3": "",
+        "re_line": "Day After Thanksgiving Hold-Ins",
+        "file_re": "DAT Hold-Ins",
+        "mail_re": ""
+    },
+    "South Shops": {
+        "act_code": ""    
+    },
+    "Thanksgiving_South Shops": {
+        "purpose": "Due to the closure of",
+        "purpose2": "South Shops",
+        "purpose3": "for the Day After Thanksgiving,",
+        "re_line": "Day After Thanksgiving Modifications",
+        "file_re": "South Shops Closure",
+        "mail_re": ""
+            
+    },    
+    "Christmas Eve_South Shops": {
+        "purpose": "Due to the closure of",
+        "purpose2": "South Shops",
+        "purpose3": "on Christmas Eve,",
+        "re_line": "Christmas Eve Modifications",
+        "file_re": "South Shops Closure",
+        "mail_re": ""   
+    },
+    "Good Friday_South Shops": {
+        "purpose": "Due to the closure of",
+        "purpose2": "South Shops",
+        "purpose3": "on Good Friday,",
+        "re_line": "Good Friday Modifications",
+        "file_re": "South Shops Closure",
+        "mail_re": ""   
+    },
+    "re_line_titles": {
+        "Replace": "Weekday schedule",
+        "Span": "X. add service span",
+        "Split": "X. service improvement",
+        "SpanSplit": "X. span and service improvement",
+        "Artic": "X. assign artics",
+        "Standard": "X. unassign artics"
+    },
+    "purposes": {
+        "Replace": "provide service on a Weekday-only route in the regular Saturday schedule",
+        "Span": "increase span of service",
+        "Split": "provide extra service in the regular Saturday schedule",
+        "SpanSplit": "increase span of service and provide extra service in the regular Saturday schedule",
+        "Artic": "facilitate social distancing on high-ridership routes",
+        "Standard": "faciliate social distancing on high-ridership routes"
+    },
+    "act_code": "",
+    "asterisks": {
+        "ast1": "*In cases where the revised pay is",
+        "ast2": "lower",
+        "ast3": "than the original pay, modify pay",
+        "ast4": "only",
+        "ast5": "if operated by someone who did",
+        "ast6": "not",
+        "ast7": "pick the run.\n"
+    },
+    "number_formats": {
+        "Artic": {
+            "One": {
+                "body_no": "one live pull-out",
+                "table_no": "live pull-out",
+                "body_veh": "a 60-foot articulated bus",
+                "table_veh": "an articulated bus"
+            },
+            "Multi": {
+                "body_no": "Z live pull-outs",
+                "table_no": "Z live pull-outs",
+                "body_veh": "60-foot articulated buses",
+                "table_veh": "articulated buses"
+            }
+        },
+        "Standard": {
+            "One": {
+                "body_no": "one live pull-out",
+                "table_no": "live pull-out",
+                "body_veh": "a 40-foot standard bus",
+                "table_veh": "a standard bus"
+            },
+            "Multi": {
+                "body_no": "Z live pull-outs",
+                "table_no": "Z live pull-outs",
+                "body_veh": "40-foot standard buses",
+                "table_veh": "standard buses"
+            }
+        },
+        "Owl": {
+            "One": {
+                "body_no": "one regular owl run",
+                "table_no": "regular owl run",
+                "body_veh": null,
+                "table_veh": null
+            },
+            "Multi": {
+                "body_no": "Z regular owl runs",
+                "table_no": "Z regular owl runs",
+                "body_veh": null,
+                "table_veh": null
+            }
+        },
+        "Other": {
+            "One": {
+                "body_no": "one extra",
+                "table_no": "extra",
+                "body_veh": null,
+                "table_veh": null
+            },
+            "Multi": {
+                "body_no": "Z extras",
+                "table_no": "Z extras",
+                "body_veh": null,
+                "table_veh": null
+            }
+        }
+    }
+
+}

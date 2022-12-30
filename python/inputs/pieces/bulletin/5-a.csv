@@ -1,0 +1,15 @@
+Garage,Duty,Op Day,Sequence,Start Time,Start,End,Route,Pce has pullout,First Start,From,Next DtyRunNumber,Paid,Work Time,Platform,Type,Direction,Duty1,EvtSta,Note
+5,048,a,1,22:36,22:51,31:12,20,TRUE,MadPul,G--Chi,5006,8h50,8h50,8h21,OWL,,,,
+5,049,a,1,23:06,23:21,30:04+,20,TRUE,MadPul,G--Chi,5003,7h13,7h13,6h44,OWL,,,,
+5,050,a,1,23:36,23:51,30:40,20,TRUE,MadPul,G--Chi,5005,7h18,7h18,6h49,OWL,,,,
+5,348,a,1,22:08,22:23,30:20,53,TRUE,EriPul,G--Chi,5307,8h14,8h14,7h57,OWL,,,,
+5,349,a,1,22:25,22:40+,29:55,53,TRUE,EriPul,G--Chi,5304,7h32,7h32,7h15,OWL,,,,
+5,350,a,1,23:04,23:19+,31:22,53,TRUE,EriPul,G--Chi,5306,8h20,8h20,8h03,OWL,,,,
+5,493,a,2,14:53,19:28,28:08,54B,FALSE,CerCic,CerKen,,12h28,12h28,11h16,PTO2,South,492,,
+5,493,a,1,14:53,15:22,17:58,20,FALSE,MadPul,MadWab,,12h28,12h28,11h16,PTO2,West,003,,
+5,657,a,1,21:43,21:58,31:08,66,TRUE,ChiKos,G--Chi,5606,9h29,9h29,9h10,OWL,,,,
+5,658,a,1,22:22,22:37,30:25+,66,TRUE,ChiKos,G--Chi,5605,8h08,8h08,7h49,OWL,,,,
+5,659,a,1,22:49,23:04+,30:06+,66,TRUE,ChiKos,G--Chi,5603,7h22,7h22,7h03,OWL,,,,
+5,660,a,1,23:31,23:46,30:47+,66,TRUE,ChiKos,G--Chi,5607,7h21,7h21,7h02,OWL,,,,
+5,680,a,1,15:38,16:07,19:50,54,FALSE,ChiCic,MonCic,,11h47,11h47,11h14,PTO2,South,405,,
+5,680,a,2,15:38,20:42,28:13,66,FALSE,ChiPul,ChiAus,,11h47,11h47,11h14,PTO2,East,622,,EARLY

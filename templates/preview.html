@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}Preview Bulletin{% endblock %}
+
+{% block main %}
+
+
+<h1>Bulletin Preview</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" for="bull">Bulletin Number</th>
+      <th scope="col" for="routes">Routes</th>
+      <th scope="col" for="garage">Garage</th>
+      <th scope="col" for="event">Event Type</th>
+      <th scope="col" for="description">Description</th>
+      <th scope="col" for="day_type">Day Type</th>
+      <th scope="col" for="eff_date">Effective Date</th>
+      <th scope="col" for="send_date">Send Date</th>
+      <th scope="col" for="initials">Initials</th>
+    </tr>
+  </thead>
+  <tbody>
+        {% for row in session['selected_bulletins'] %}
+      </tr>
+        <td name="bull">{{ row["bulletin_no"] }}</td>
+        <td name="routes">{{ row["routes"] }}</td>
+        <td name="garage">{{ row["gar_full"] }}</td>
+        <td name="event">{{ row["Event"] }}</td>
+        <td name="description">{{ row["Description"] }}</td>
+        <td name="day_type">{{ row["eff_day"] }}</td>
+        <td name="eff_date">{{ row["eff_date"] }}</td>
+        <td name="send_date">{{ row["send_date"] }}</td>
+        <td name="initials">{{ row["initials"] }}</td>
+      </tr>
+        {% endfor %}
+    </tbody>
+</table>
+    
+<a href={{ session['return'] }}><button>Return</button></a>
+<a href="/create"><button>Create</button></a>
+
+
+
+{% endblock %}

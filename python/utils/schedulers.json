@@ -1,0 +1,20 @@
+{
+   "AK":{
+      "name":"Andy Keller",
+      "position":"Analyst, Bus Scheduling",
+      "email": "akeller@transitchicago.com",
+      "phone": "(312)681-4263"
+   },
+  "GT":{
+      "name":"Gama Torres",
+      "position":"Analyst, Bus Scheduling",
+      "email": "gtorres@transitchicago.com",
+      "phone": ""
+   },
+  "LP":{
+      "name":"Luis Paz",
+      "position":"Analyst, Bus Scheduling",
+      "email": "lpaz@transitchicago.com",
+      "phone": "(312) 681-4236"
+   }
+}

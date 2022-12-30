@@ -1,0 +1,50 @@
+duty,op_days,rept,pull,start_pl,full_pay,plat_pay,rev_pay,orig_pay,relief_duty,dtype,orig_relief_duty,st_plB,reptB,pullB,route,pay_diff,asterisk
+1339,Saturday,2221,2236,#119 @ 119Wes,8h00,8h00,8h00,8h00,,adjusted,,,,,119,0,
+1340,Saturday,2221,2236,#119 @ 95 Red,8h30,8h30,8h30,8h30,,adjusted,,,,,119,0,
+1937,Saturday,2154,2209+,#95 @ 95 Sto,9h30,9h30,9h30,8h29,1903,adjusted,1053,,,,95,61,
+1938,Saturday,2231,2246,#34 @ 95 Red,9h15,9h15,9h15,8h23,1904,adjusted,1902,,,,34,52,
+1939,Saturday,2213,2228+,#95 @ 95 Sto,8h10,8h10,8h10,9h11,1053,adjusted,1903,,,,95,-61,True
+1940,Saturday,2243,2258+,#95 @ 95 Sto,8h11,8h11,8h11,9h03,1902,adjusted,1904,,,,95,-52,True
+5048,Saturday,2236,2251,#20 @ MadPul,8h50,8h50,8h50,7h43,5006,adjusted,5003,,,,20,67,
+5049,Saturday,2306,2321,#20 @ MadPul,7h13,7h13,7h13,7h48,5003,adjusted,5005,,,,20,-35,True
+5050,Saturday,2336,2351,#20 @ MadPul,7h18,7h18,7h18,7h50,5005,adjusted,5006,,,,20,-32,True
+5348,Saturday,2208,2223,#53 @ EriPul,8h14,8h14,8h14,7h49,5307,adjusted,5304,,,,53,25,
+5349,Saturday,2225,2240+,#53 @ EriPul,7h32,7h32,7h32,7h57,5304,adjusted,5307,,,,53,-25,True
+5350,Saturday,2304,2319+,#53 @ EriPul,8h20,8h20,8h20,8h20,5306,adjusted,5306,,,,53,0,
+5493,Saturday,1453,1522,RW 5003 @ MadPul,12h28,12h28,12h28,8h37,,revised,,,,,20,231,
+5657,Saturday,2143,2158,#66 @ ChiKos,9h29,9h29,9h29,8h47,5606,adjusted,5605,,,,66,42,
+5658,Saturday,2222,2237,#66 @ ChiKos,8h08,8h08,8h08,7h49,5605,adjusted,5603,,,,66,19,
+5659,Saturday,2249,2304+,#66 @ ChiKos,7h22,7h22,7h22,8h03,5603,adjusted,5607,,,,66,-41,True
+5660,Saturday,2331,2346,#66 @ ChiKos,7h21,7h21,7h21,7h41,5607,adjusted,5606,,,,66,-20,True
+5680,Saturday,1538,1607,RS 5405 @ ChiCic,11h47,11h47,11h47,8h14,,revised,,,,,54,213,
+6094,Saturday,1927,1942,#9 @ 74 Ash,9h04,9h04,9h04,8h03,,adjusted,,,,,9,61,
+6095,Saturday,1956,2011+,#9 @ 74 Ash,9h02,9h02,9h02,8h04,,adjusted,,,,,9,58,
+6096,Saturday,2029,2044+,#9 @ 74 Ash,9h01,9h01,9h01,8h02,,adjusted,,,,,9,59,
+6097,Saturday,2107,2122+,#9 @ 74 Ash,8h58,8h58,8h58,7h51,6006,adjusted,,,,,9,67,
+6098,Saturday,2148,2203,#9 @ 74 Ash,8h44,8h44,8h44,7h42,6773,adjusted,,,,,9,62,
+6099,Saturday,2228,2243+,#9 @ 74 Ash,5h02,5h02,5h02,7h37,,adjusted,6006,,,,9,-155,True
+6100,Saturday,2309,2324,#9 @ 74 Ash,4h51,4h51,4h51,7h23,,adjusted,6773,,,,9,-152,True
+6247,Saturday,2153,2208,#62 @ ArcHar,11h21,11h04,11h21,8h09,6209,adjusted,,,,,62,192,
+6248,Saturday,2230,2245,#62 @ ArcHar,7h09,7h09,7h09,8h02,,adjusted,,,,,62,-53,True
+6249,Saturday,2345,2400,#62 @ ArcHar,8h33,8h33,8h33,9h12,6208,adjusted,6209,,,,62,-39,True
+6250,Saturday,2415,2430,#62 @ ArcHar,6h17,6h17,6h17,8h03,,adjusted,6208,,,,62,-106,True
+6347,Saturday,2125,2140,#63 @ 63 Ash,9h42,9h42,9h42,9h16,6311,adjusted,6304,,,,63,26,
+6348,Saturday,2231,2246+,#63 @ 63 Ash,8h29,8h29,8h29,8h16,6307,adjusted,6308,,,,63,13,
+6349,Saturday,2156,2211,#63 @ 63 Ash,8h45,8h45,8h45,9h04,6304,adjusted,6307,,,,63,-19,True
+6350,Saturday,2310,2325+,#63 @ 63 Ash,7h37,7h37,7h37,7h57,6308,adjusted,6311,,,,63,-20,True
+6372,Saturday,1550,1626+,RE 6317 @ 63 Ash,11h50,11h50,11h50,8h45,6318,revised,6318,,,,63,185,
+6455,Saturday,2024,2039,#49 @ 79 Wes,11h00,10h50,11h00,9h18,6013,adjusted,,,,,49,102,
+6456,Saturday,2100,2115,#49 @ 79 Wes,10h35,10h33,10h35,9h01,6016,adjusted,,,,,49,94,
+6457,Saturday,2151,2206,#49 @ 79 Wes,10h21,10h21,10h21,8h47,6023,adjusted,,,,,49,94,
+6458,Saturday,2206,2221,#49 @ 79 Wes,7h36,7h36,7h36,9h08,,adjusted,6013,,,,49,-92,True
+6459,Saturday,2255,2310+,#49 @ 79 Wes,7h06,7h06,7h06,8h38,,adjusted,6016,,,,49,-92,True
+6460,Saturday,2314,2329,#49 @ 79 Wes,7h24,7h24,7h24,8h58,,adjusted,6023,,,,49,-94,True
+6529,Saturday,1821,1836+,#55 @ GrfAsh,9h37,9h37,9h37,9h37,,adjusted,,,,,55,0,
+6530,Saturday,1906,1921+,#55 @ GrfAsh,9h22,9h22,9h22,9h22,,adjusted,,,,,55,0,
+7050,Saturday,2216,2231+,#87 @ 87 Vin,8h28,8h28,8h28,8h28,7006,adjusted,7006,,,,87,0,
+7448,Saturday,1957,2012,#3 @ 95 Csu,10h18,10h18,10h18,9h17,,adjusted,,,,,3,61,
+7449,Saturday,2042,2057,#3 @ 95 Csu,8h32,8h32,8h32,9h02,,adjusted,,,,,3,-30,True
+7450,Saturday,2112,2127,#3 @ 95 Csu,8h32,8h32,8h32,9h03,,adjusted,,,,,3,-31,True
+7678,Saturday,2026,2041,#79 @ 79 Wen,10h21,10h21,10h21,9h09,7621,adjusted,7615,,,,79,72,
+7679,Saturday,2048,2103+,#79 @ 79 Wen,8h47,8h47,8h47,9h20,7615,adjusted,7618,,,,79,-33,True
+7680,Saturday,2128,2143+,#79 @ 79 Wen,8h40,8h40,8h40,9h19,7618,adjusted,7621,,,,79,-39,True

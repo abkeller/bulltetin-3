@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block title %}New Bulletin{% endblock %}
+
+{% block main %}
+    <h2>Create New Bulletin Page</h2>
+    <br>
+       <form action="/new" method="post">
+
+            <!-- divs for bulletin number text fields-->       
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" id for="bull1Instruct">Bulletin</label>
+              </div>
+              <select class="custom-select" id="bull1Instruct" name="bull1" >
+                <option selected>Choose Bulletin Number ...</option>            
+            {% for row in session['bulletins'] %}
+                <option value={{ row['bulletin_no'] }}>{{ row['bulletin_no']}} - {{ row['gar_full'] }} - {{ row['Description'] }}  - {{ row['initials'] }}</option>
+            {% endfor %}
+              </select>
+            </div>
+              
+            <div class="input-group mb-3" id="bull2" style="visibility:collapse">
+              
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Bulletin</label>
+              </div>
+                
+              <select class="custom-select" id="inputGroupSelect01" name="bull2">
+                <option selected>Choose Second Bulletin Number ...</option>            
+            {% for row in session['bulletins'] %}
+                <option value={{ row['bulletin_no'] }}>{{ row['bulletin_no']}} - {{ row['gar_full'] }} - {{ row['Description'] }} - {{ row['initials'] }}</option>
+            {% endfor %}
+              </select>
+            </div>
+            
+              
+            <div style="text-align:left" class="input-group mb-3">
+                <input onclick="addEndDate()" type="checkbox" class="form-check-input" id="bullCheck">
+                <label class="form-check-label" for="exampleCheck1">Check to create a range of bulletins</label>
+            </div>
+                 
+            <div class="input-group mb-3" id="initials" style="visibility:collapse">
+              
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Initials</label>
+              </div>
+                
+              <select class="custom-select" name="initials">
+                <option selected>Select Initials ...</option>            
+            {% for i in session['initials'] %}
+                <option value={{ i }}>{{ i }}</option>
+            {% endfor %}
+              </select>
+            </div>
+
+             <div style="text-align:left" class="input-group mb-3">
+                <input onclick="useInitials()" type="checkbox" class="form-check-input" id="intialsCheck" name="intialsCheck">
+                <label class="form-check-label" for="initials">To select bulletins within the range based on initials</label>
+            </div>
+
+            <!-- date picker to get send date for cover sheet-->
+            <div>
+              <br>
+              <div class="form-group" id="send_date">
+                  <label for="send_date">Send date:</label>
+            
+                  <input type="date" id="send_date" name="send_date" value={{ today }}>
+              </div>
+             </div> 
+              
+             <br>                       
+            <div class="form-group">             
+                 <button class="btn btn-primary" type="submit" onsubmit="select_bulletins">Preview</button>
+            </div>                          
+        </form>
+
+          
+        <script>
+            function addEndDate() {
+                end_range = document.getElementById("bull2");
+                check = document.getElementById("bullCheck");
+                if (check.checked === true)
+                {
+                    end_range.style.visibility = "visible";
+                }
+                else {
+                    end_range.style.visibility = "collapse"
+                }
+            }
+        </script>
+        <script>
+            function useInitials() {
+                initials = document.getElementById("initials");
+                check = document.getElementById("intialsCheck");
+                if (check.checked === true)
+                {
+                    initials.style.visibility = "visible";
+                }
+                else {
+                    initials.style.visibility = "collapse"
+                }
+            }
+        </script>
+
+{% endblock %}
